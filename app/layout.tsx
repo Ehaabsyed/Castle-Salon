@@ -23,9 +23,9 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: 'The Castle Unisex Salon | Premium Hair, Beauty & Grooming in Mangaluru',
+  title: 'The Luxe Unisex Salon | Premium Hair, Beauty & Grooming in Bengaluru',
   description:
-    "Mangaluru's premium unisex salon offering luxury hair styling, beauty treatments, and grooming services.",
+    "Bengaluru's premium unisex salon offering luxury hair styling, beauty treatments, and grooming services.",
 };
 
 export default function RootLayout({

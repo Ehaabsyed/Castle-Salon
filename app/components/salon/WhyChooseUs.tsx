@@ -23,7 +23,7 @@ export default function WhyChooseUs() {
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-[#0a0a0a]/95 to-[#0a0a0a]" />
       </div>
       <div className="relative max-w-7xl mx-auto px-6">
-        <SectionTitle overline="Why Choose Us" title={<>The <span className="gold-text italic">Castle</span> Difference</>} subtitle="Six reasons why we are Mangaluru&apos;s most loved unisex salon." />
+        <SectionTitle overline="Why Choose Us" title={<>The <span className="gold-text italic">Luxe</span> Difference</>} subtitle="Six reasons why we are Mangaluru&apos;s most loved unisex salon." />
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#c9a96e]/15">
           {items.map((it, i) => (
             <motion.div key={i} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.08 }} className="group bg-[#0a0a0a] p-10 hover:bg-[#0f0f0f] transition-all">

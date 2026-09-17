@@ -78,16 +78,15 @@ export default function Footer() {
   <ul className="space-y-4 text-sm">
     <li className="flex items-start gap-3 text-white/55">
       <Phone className="w-4 h-4 text-[#c9a96e] mt-0.5 shrink-0" />
-      <a href="tel:+918660375643" className="hover:text-[#c9a96e]">
-        +91 86603 75643
+      <a href="tel:+919900375643" className="hover:text-[#c9a96e]">
+        +91 99003 75643
       </a>
     </li>
 
     <li className="flex items-start gap-3 text-white/55">
       <MapPin className="w-4 h-4 text-[#c9a96e] mt-0.5 shrink-0" />
       <span>
-        2nd Floor, Pushpa Building, Opp. Govt School,
-        Bejai-Kapikad Road, Kapikad, Mangaluru 575004
+        2nd Floor, Sunshine Building, Main Road, Opp. City Mall, Yelahanka, Bengaluru, Karnataka 560064
       </span>
     </li>
 
@@ -99,7 +98,7 @@ export default function Footer() {
         rel="noreferrer"
         className="hover:text-[#c9a96e]"
       >
-        @the.castle_unisexsalon
+        @the.luxe_unisexsalon
       </a>
     </li>
   </ul>

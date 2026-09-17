@@ -9,7 +9,7 @@ const links: NavLink[] = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
   { name: 'Services', href: '#services' },
-  { name: 'Gallery', href: '#gallery' },
+  // { name: 'Gallery', href: '#gallery' },
   { name: 'Reviews', href: '#reviews' },
   { name: 'Contact', href: '#contact' },
 ];
@@ -35,7 +35,7 @@ export default function Navbar() {
         <motion.a href="#home" whileHover={{ scale: 1.02 }} className="flex items-center gap-2">
           <Crown className="w-7 h-7 text-[#c9a96e]" strokeWidth={1.5} />
           <div className="flex flex-col leading-none">
-            <span className="font-serif-luxe text-xl md:text-2xl gold-text tracking-wider">The Castle</span>
+            <span className="font-serif-luxe text-xl md:text-2xl gold-text tracking-wider">The Luxe</span>
             <span className="text-[10px] tracking-[0.3em] text-white/60 uppercase">Unisex Salon</span>
           </div>
         </motion.a>

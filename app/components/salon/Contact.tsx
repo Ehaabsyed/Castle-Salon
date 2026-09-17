@@ -18,17 +18,17 @@ interface ContactItem {
 
 
 const contactItems: ContactItem[] = [
-  { icon: Phone, label: 'Call Us', value: '+91 86603 75643', href: 'tel:+918660375643' },
-  { icon: MapPin, label: 'Visit', value: '2nd Floor, Pushpa Building, Opp. Govt School, Bejai-Kapikad Road, Kapikad, Mangaluru, Karnataka 575004', href: 'https://maps.app.goo.gl/pa1xDmS3DAdKq82AA' },
+  { icon: Phone, label: 'Call Us', value: '+91 99003 75643', href: 'tel:+918660375643' },
+  { icon: MapPin, label: 'Visit', value: '2nd Floor, Sunshine Building, Main Road, Opp. City Mall, Yelahanka, Bengaluru, Karnataka 560064', href: 'https://maps.app.goo.gl/XLk5YrbWvpWGppMQA' },
   { icon: Clock, label: 'Open Hours', value: 'Mon - Sun · 9:30 AM – 9:00 PM' },
-  { icon: Instagram, label: 'Instagram', value: '@the.castle_unisexsalon', href: 'https://www.instagram.com/the.castle_unisexsalon' },
+  { icon: Instagram, label: 'Instagram', value: '@the.luxe_unisexsalon', href: 'https://www.instagram.com/the.luxe_unisexsalon' },
 ];
 
 export default function Contact() {
   return (
     <section id="contact" className="py-28 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-6">
-        <SectionTitle overline="Visit Us" title={<>Step Inside The <span className="gold-text italic">Castle</span></>} subtitle="We&apos;d love to welcome you. Reach out, drop by, or book online." />
+        <SectionTitle overline="Visit Us" title={<>Step Inside The <span className="gold-text italic">Luxe</span></>} subtitle="We&apos;d love to welcome you. Reach out, drop by, or book online." />
 
         <div id="book" className="grid lg:grid-cols-2 gap-8">
           <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="space-y-5">
@@ -45,10 +45,10 @@ export default function Contact() {
             ))}
 
             <div className="flex gap-3 pt-4">
-              <a href="tel:+918660375643" className="flex-1 inline-flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-[#c9a96e] to-[#8a7448] text-black font-medium tracking-widest uppercase text-sm hover:scale-[1.02] transition-transform">
+              <a href="tel:+919900375643" className="flex-1 inline-flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-[#c9a96e] to-[#8a7448] text-black font-medium tracking-widest uppercase text-sm hover:scale-[1.02] transition-transform">
                 <Phone className="w-4 h-4" /> Call Now
               </a>
-              <a href="https://wa.me/918660375643" target="_blank" rel="noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 px-6 py-4 border border-[#c9a96e]/50 text-[#c9a96e] hover:bg-[#c9a96e] hover:text-black font-medium tracking-widest uppercase text-sm transition-all">
+              <a href="https://wa.me/919900375643" target="_blank" rel="noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 px-6 py-4 border border-[#c9a96e]/50 text-[#c9a96e] hover:bg-[#c9a96e] hover:text-black font-medium tracking-widest uppercase text-sm transition-all">
                 <MessageCircle className="w-4 h-4" /> WhatsApp
               </a>
             </div>

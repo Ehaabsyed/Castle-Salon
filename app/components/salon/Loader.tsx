@@ -18,7 +18,7 @@ export default function Loader() {
               <Crown className="w-16 h-16 text-[#c9a96e]" strokeWidth={1.2} />
             </motion.div>
             <div className="text-center">
-              <div className="font-serif-luxe text-3xl gold-text tracking-wider">The Castle</div>
+              <div className="font-serif-luxe text-3xl gold-text tracking-wider">The Luxe</div>
               <div className="text-[10px] tracking-[0.5em] text-white/50 uppercase mt-1">Unisex Salon</div>
             </div>
             <div className="w-40 h-px bg-[#c9a96e]/20 overflow-hidden">

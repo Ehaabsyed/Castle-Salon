@@ -8,7 +8,7 @@ interface Offer { icon: LucideIcon; badge: string; title: string; desc: string; 
 
 const offers: Offer[] = [
   { icon: Gift, badge: 'Limited', title: 'First Visit Special', desc: 'Enjoy 20% off on your first salon experience with us.', tag: '20% OFF', cta: 'Claim Now' },
-  { icon: Crown, badge: 'Premium', title: 'Castle Membership', desc: 'Annual luxury membership with priority bookings & exclusive perks.', tag: 'VIP', cta: 'Join Now' },
+  { icon: Crown, badge: 'Premium', title: 'Luxe Membership', desc: 'Annual luxury membership with priority bookings & exclusive perks.', tag: 'VIP', cta: 'Join Now' },
   { icon: Heart, badge: 'Bridal', title: 'Bridal Package', desc: 'Complete pre-wedding luxury package with trials included.', tag: 'Save 25%', cta: 'Book Today' },
 ];
 

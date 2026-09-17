@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen w-full overflow-hidden">
       <div className="absolute inset-0">
-        <img src="https://images.pexels.com/photos/13068377/pexels-photo-13068377.jpeg" alt="Luxury salon" className="w-full h-full object-cover" />
+        <img src="https://res.cloudinary.com/dxudcvfbn/image/upload/v1789653476/i1_bztavb.avif" alt="Luxury salon" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black" />
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/40 to-transparent" />
       </div>

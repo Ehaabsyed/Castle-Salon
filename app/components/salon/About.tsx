@@ -19,11 +19,11 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 1 }} className="relative">
             <div className="relative aspect-[4/5] overflow-hidden">
-              <img src="https://images.pexels.com/photos/7195806/pexels-photo-7195806.jpeg" alt="Salon experience" className="w-full h-full object-cover" />
+              <img src="https://res.cloudinary.com/dxudcvfbn/image/upload/v1789653546/i2_adrt5d.avif" alt="Salon experience" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
             </div>
             <div className="absolute -bottom-8 -right-8 w-2/3 aspect-square overflow-hidden border-4 border-black hidden md:block">
-              <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f" alt="Hair styling" className="w-full h-full object-cover" />
+              <img src="https://res.cloudinary.com/dxudcvfbn/image/upload/v1789653598/i3_pmtpsk.jpg" alt="Hair styling" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -top-6 -left-6 w-32 h-32 border border-[#c9a96e]/40 -z-10" />
           </motion.div>
